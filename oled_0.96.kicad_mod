@@ -1,4 +1,4 @@
-(module oled_0.96 (layer F.Cu) (tedit 5C099936)
+(module oled_0.96 (layer F.Cu) (tedit 5C0D0ADD)
   (descr "Through hole straight pin header, 1x04, 2.54mm pitch, single row")
   (tags "Through hole pin header THT 1x04 2.54mm single row")
   (fp_text reference REF** (at 0.127 -3.048 180) (layer F.SilkS)
@@ -34,8 +34,8 @@
   (pad "" np_thru_hole circle (at 11.75 24.25) (size 2.2 2.2) (drill 2.2) (layers *.Cu *.Mask))
   (pad "" np_thru_hole circle (at -11.75 24.25) (size 2.2 2.2) (drill 2.2) (layers *.Cu *.Mask))
   (model ${KISYS3DMOD}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x04_P2.54mm_Vertical.wrl
-    (at (xyz 0 0 0))
+    (offset (xyz 3.81 0 0))
     (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
+    (rotate (xyz 0 0 90))
   )
 )
